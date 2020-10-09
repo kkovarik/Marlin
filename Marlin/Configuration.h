@@ -876,8 +876,8 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 180
-#define Y_BED_SIZE 180
+#define X_BED_SIZE 160
+#define Y_BED_SIZE 175
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
@@ -885,7 +885,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 200
+#define Z_MAX_POS 150
 
 /**
  * Software Endstops
@@ -1654,7 +1654,7 @@
 // RepRapDiscount FULL GRAPHIC Smart Controller
 // http://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
-//#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 
 //
 // ReprapWorld Graphical LCD
